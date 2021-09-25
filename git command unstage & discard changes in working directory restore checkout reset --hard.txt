@@ -1,0 +1,9 @@
+
+工作区                  版本库->（暂存区，master HEAD）
+working directory        .git directory
+git add             ->    git commit
+添加到暂存区        ->   添加到版本库
+git checkout -- <file>  ====== git restore <file> 放弃工作区
+git reset HEAD <file> ===== git restore --staged <file> 放弃暂存区（的修改）
+git reset --hard <commit> 回退到<commit>版本，并强制删除工作区的修改
+git reset <file> 将<file>从暂存区移除，但保持工作区不变。此操作不会修改工作区的任何文件。
