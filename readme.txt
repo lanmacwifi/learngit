@@ -6,3 +6,4 @@ Git has a mutable index called stage.
 Git tracks changes of files.
 stupid boss prefers SVN.
 git is simple and quick.
+annotation
